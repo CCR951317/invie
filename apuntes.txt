@@ -1,0 +1,36 @@
+Selectores de clase
+.title-b{
+	background: red;
+}
+
+Selector de ID
+#title-b{
+	background: red;
+}
+
+Selector universal
+*{
+	background: red;
+}
+
+Selector de etiqueta
+header {
+	background: red;
+}
+
+Display: inline; Cualquier elemento se ubicara al lado de manera continua, en una sola linea
+Display: block; acupa todo el espacio que tiene el elemento de manera horizontal 
+
+Position: fixed; Posicion fija de un elemento en la pagina, recomendado para utilizar en los menus
+Position: absolute; 
+Position: relative; toma como referencia su padre mas proximo
+
+Entidades html
+Colocar un contenido despues de los li del menu
+.menu li:after{
+	content: '123';
+}
+
+
+Inicializar repositorio 
+-- git init (una vez nos encontremos en la carpeta del proyecto)
